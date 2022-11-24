@@ -13,7 +13,7 @@ function csvJSON(csv) {
 
     const headers = lines[0].split(",");
     headers.shift();
-    const filename = lines[1].split(",", 1);
+    const filename = lines[1].split(",", 1)[0];
 
     for (let i = 1; i < lines.length; i++) {
         let obj = {};
