@@ -14,7 +14,13 @@
 git clone https://github.com/LuisMelDev/challenge-toolbox
 ```
 
-#### 2. Execution
+#### 2. Enter to folder
+
+```
+cd challenge-toolbox
+```
+
+#### 3. Execution
 
 ```
 docker-compose up
